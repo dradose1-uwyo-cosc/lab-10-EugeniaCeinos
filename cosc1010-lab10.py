@@ -50,3 +50,4 @@ else:
         hashed = get_hash(line)
         if hashed in hash:
             print(f"The hashed password is: {line}")
+            break
